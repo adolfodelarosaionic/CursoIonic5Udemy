@@ -88,34 +88,52 @@ Una persona que quiera crear PWAs que tengan el aspecto nativo de una app móvil
 Personas que quieran saber cómo desplegar sus aplicaciones en Google Play Store y Apple App Store
 
 ## Contenido del curso                                                                               275 clases 29:00:20
+
 ### Introducción                                                                                       4 clases    17:06
+
+#### Introducción                                                                                                  01:45
+#### ¿Cómo funcionará el curso?                                                                                    04:02
+#### ¿Cómo hacer preguntas?                                                                                        03:25
+#### Instalaciones necesarias para seguir el curso                                                                 07:54
+
 ### ¿Qué es ionic?                                                                                    11 clases    53:25
+ 
+#### Introducción a la sección                                                                                     01:25
+#### Temas puntuales de la sección                                                                                 00:29
+#### ¿Qué son las aplicaciones híbridas?                                                                           02:57
+#### Híbrido vs Nativo                                                                                             08:52
+#### ¿Qué es ionic framework?                                                                                      03:23
+#### Nuestra primera aplicación de ionic                                                                           07:55
+#### Estructura de un proyecto de ionic - Parte 1                                                                  14:50
+#### Estructura de un proyecto de ionic - Parte 2                                                                  05:04
+#### Ionic lab                                                                                                     02:45
+#### Depurar una aplicación de ionic - debugger                                                                    05:26
+#### Código fuente de la sección                                                                                   00:18
+
 ### Reforzamiento de Angular                                                                          13 clases 01:05:08
+
 ### Bases de ionic                                                                                     9 clases    45:06
+
 ### Componentes de ionic y su uso en una aplicación                                                   40 clases 05:32:00
+
 ### Correr aplicaciones en dispositivos físicos y emulados                                            13 clases 01:08:01
+
 ### Aplicación de noticias                                                                            22 clases 02:26:43
+
 ### Publicar una aplicación de ionic como PWA                                                         10 clases    40:44
+
 ### Aplicación de peliculas                                                                           27 clases 03:17:07
+
 ### Aplicación lectora de códigos de barra y QR                                                       22 clases 02:11:21
+
 ### Push Notifications                                                                                15 clases 01:38:45
-+
-Backend - Fotosgram - Usuarios y autenticación
-18 clases
-01:39:15
-+
-backend - Fotosgram - POST y Subida de archivos
-16 clases
-01:37:19
-+
-FotosGram - Aplicación
-38 clases
-04:22:49
-+
-Despliegues en Google PlayStore y Apple AppStore
-15 clases
-01:22:41
-+
-Despedida del curso
-2 clases
-02:56
+
+### Backend - Fotosgram - Usuarios y autenticación                                                    18 clases 01:39:15
+
+### Backend - Fotosgram - POST y Subida de archivos                                                   16 clases 01:37:19
+
+### FotosGram - Aplicación                                                                            38 clases 04:22:49
+
+### Despliegues en Google PlayStore y Apple AppStore                                                  15 clases 01:22:41
+
+### Despedida del curso                                                                                2 clases    02:56
