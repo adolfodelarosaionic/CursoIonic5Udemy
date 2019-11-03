@@ -266,6 +266,138 @@ Nosotros en este curso explicaremos el 90 por ciento de cada uno de los elemento
 Hay unos que no tienen un emulador pero nosotros sí haremos el ejercicio y hay otros que como ustedes están viendo si pueden probarlo aquí en el emulador que tienen al lado derecho lleguen a esta página empiecen a jugar con cada uno de los controles y los veo en el siguiente video.
 
 ## Nuestra primera aplicación de ionic                                                                           07:55
+
+Es momento de comenzar con nuestra primera aplicación Ionic.
+
+1. Crear una carpeta llamada `Ionic` en el lugar deseado.
+2. En la consola cambiarse a la carpeta creada.
+3. Escribir el siguiente comando `ionic start myApp tabs` para crear un proyecto Ionic
+
+Esto va a descargarnos todo el temple de taps y dejarlo listo para que nosotros podamos probar nuestra aplicación. Nos pregunta si la app será de Angular o React. Seleccionamos Angular y esperemos que esto termine.
+
+Una vez que finalice tendremos la carpeta `myApp` la cual vamos a renombrar a `01-myApp`. 
+Ok entonces de regreso en el terminal nos metemos a esa carpeta con `cd 01-myApp`.
+Dentro de la carpeta del proyecto vamos a pulsar el comando:
+
+`ionic serve`
+
+lo que hace ese comando es levantar la aplicación para que yo pueda ver los cambios en tiempo real es decir que cuando yo grabe en el Visual Studio Code automáticamente se refresquen en el navegador web y con eso me va a ayudar a saber cómo se va a ver mi aplicación en ese momento.
+
+Para ver la aplicación en el navegador web escribimos:
+
+`http://localhost:8100/`
+
+Nos carga una aplicación con tres tabs, como se ve en las siguientes imagenes:
+
+<img src="/02QueEsIonic/app1_tab1_web.png" width="250px" /><img src="/02QueEsIonic/app1_tab2_web.png" width="250px"/><img src="/02QueEsIonic/app1_tab3_web.png" width="250px"/>
+
+<img src="/02QueEsIonic/app1_tab1_movil.png" width="250px"/><img src="/02QueEsIonic/app1_tab2_movil.png" width="250px"/><img src="/02QueEsIonic/app1_tab3_movil.png" width="250px"/>
+
+
+En fin muchas cosas propias para la depuración y probar nuestra aplicación.
+
+Noten que aquí ya lo levanta voy a mostrar las herramientas de desarrollo de la siguiente manera.
+
+Luego lo voy a hacer con el shortcuts pero por momentos voy a tocar aquí los tres puntos muertos developer
+
+Tux está acá por defecto se encuentra así.
+
+Bueno aquí no tenemos el toque.
+
+Yo por lo general estamos aquí en la consola no se preocupen por esos warnings ya los voy a explicar
+
+en breve pero esta es mi aplicación.
+
+Tengo los taps puedo navegar por ellos si quiero simular un dispositivo puedo tocar este botón.
+
+Por defecto voy a hacer un poco más grande por defecto estoy simulando un pixel 2.
+
+Si yo quisiera simular un iPhone puedo seleccionar un iPhone de los que tengo.
+
+Por ejemplo quiero un iPhone 6 y recargo entonces noten que el estilo cambia automáticamente detecta
+
+que es un y2 entonces aplica al estilo de ellos pero si regreso a un pixel por ejemplo un pixel XBL
+
+y recargo aplica al estilo de material design.
+
+Excelente.
+
+Una vez estando en este punto antes de terminar el vídeo vamos a hacer un pequeño cambio para ver qué
+
+fácil es trabajar con Calloni en la carpeta que nosotros acabamos de crear.
+
+0 1 malla la vamos a abrir en el editor de código que ustedes quieran yo en este curso les estoy recomendando
+
+que usen Visual Studio coat pero pueden usar cualquiera.
+
+Entonces yo ya tengo Visual Studio aquí abierto entonces voy a tomar la carpeta y la dejaré caer aquí
+
+perfecto.
+
+Ahora vamos a trabajar en el Tab 2.
+
+Vamos a poner un poco de contenido acá.
+
+Regresemos a nuestro proyecto en la carpeta espérese a Pepe y aquí dice Taub 2 luego Tab 2 Ph.D HTML
+
+que es el código HTML que es el que está renderizado acá.
+
+Aquí hay varios componentes extraños que es la primera vez que ustedes trabajan con ONIC podrían sentirse
+
+un poco intimidados pero mentalizarse que no son más que componentes normales de angular.
+
+Por ejemplo este es un componente que maneja el título un componente que maneja el turbar un componente
+
+que maneja el jede que no necesariamente esto siempre va.
+
+Todo depende de lo que ustedes quieran crear.
+
+En mi caso en el hay un content yo voy a poner un HD2 que diga Hola Mundo y grabo los cambios al grabar
+
+los cambios.
+
+El avión Exide se va a dar cuenta de que hubo cambios y Barré compilar la aplicación y la va a volver
+
+a mostrar en pantalla.
+
+Esto puede ser que cada vez lo haga más rápido conforme vaya actualizándose el framework ONIC pero ahorita
+
+demora un par de segundos porque aquí ya tenemos nuestro Hola mundo en el top 2.
+
+Noten que aquí aparece muy pegado al borde y eso puede ser que es lo que ustedes necesiten para esta
+
+página o puede ser que no nos ofrece un atributo bastante conveniente llamado pan con doble de grave
+
+los cambios.
+
+Más adelante les voy a explicar donde obtengo estos atributos donde están dónde está listado completo
+
+ya lo vamos a ver pero con solo poner Padín ahí y cuando esto recopile aparece una separación aquí en
+
+el lado izquierdo y también en la parte de arriba.
+
+Básicamente eso es todo lo que quería cubrir en este video.
+
+Noten que eso pareciera una aplicación completa y está utilizando lo que es el material design de Android.
+
+Si ustedes quisieran verlo como se trabajarían ellos entonces en esta opción de acá van a seleccionar
+
+cualquier dispositivo iPhone por ejemplo seleccionar un iPhone 6.
+
+Aquí también simular el borde pero puede ser que esto no les aparezca.
+
+Por lo general si esta y una vez hecho esto tienen que recargar la aplicación noten que la aplicación
+
+cambia ya no hace el efecto pero así se ve en ellos ok lo vamos a dejar así.
+
+Por lo general voy a estar trabajando en un pixel XBL.
+
+Una vez hecho ese cambio tienen que recargar el navegador web y estamos listos en el siguiente video.
+
+Yo les voy a explicar cada uno de los directorios y cada uno de los archivos que tiene un proyecto de
+
+Nic actualmente.
+
 ## Estructura de un proyecto de ionic - Parte 1                                                                  14:50
 ## Estructura de un proyecto de ionic - Parte 2                                                                  05:04
 ## Ionic lab                                                                                                     02:45
