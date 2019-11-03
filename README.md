@@ -331,25 +331,83 @@ Personas que quieran saber cómo desplegar sus aplicaciones en Google Play Store
 
 ### Backend - Fotosgram - POST y Subida de archivos                                                   16 clases 01:37:19
 
-#### Introducción a la sección 01:14
-#### Temas puntuales de la sección 00:16
-#### Demostración de esta sección - Crear mensajes y subida de archivos 03:46
-#### Continuación de proyecto - Backend FotosGram - Imágenes y Posts 03:21
-#### Modelo de base de datos: Post 06:46
-#### Servicio para crear un POST 10:16
-#### Servicio para obtener los POSTs de forma paginada 10:16
-#### Servicio para subir archivos 11:03
-#### Explicación del proceso que aplicaremos para el tratamiento de las imágenes 03:08
-#### Clase para el manejo del FileSystem 10:37
-#### Generar un nombre único a la imagen 06:03
-#### Mover el archivo físico a la carpeta que hemos creado 07:27
-#### Mover imágenes del Temp personalizado a la carpeta Post 10:13
-#### Servicio para mostrar una imagen por URL 09:35
-#### Retornar información del usuario por Token 03:07
-#### Código fuente de la sección 00:11
+#### Introducción a la sección                                                                                     01:14
+#### Temas puntuales de la sección                                                                                 00:16
+#### Demostración de esta sección - Crear mensajes y subida de archivos                                            03:46
+#### Continuación de proyecto - Backend FotosGram - Imágenes y Posts                                               03:21
+#### Modelo de base de datos: Post                                                                                 06:46
+#### Servicio para crear un POST                                                                                   10:16
+#### Servicio para obtener los POSTs de forma paginada                                                             10:16
+#### Servicio para subir archivos                                                                                  11:03
+#### Explicación del proceso que aplicaremos para el tratamiento de las imágenes                                   03:08
+#### Clase para el manejo del FileSystem                                                                           10:37
+#### Generar un nombre único a la imagen                                                                           06:03
+#### Mover el archivo físico a la carpeta que hemos creado                                                         07:27
+#### Mover imágenes del Temp personalizado a la carpeta Post                                                       10:13
+#### Servicio para mostrar una imagen por URL                                                                      09:35
+#### Retornar información del usuario por Token                                                                    03:07
+#### Código fuente de la sección                                                                                   00:11
 
 ### FotosGram - Aplicación                                                                            38 clases 04:22:49
 
+#### Introducción a la sección                                                                                     00:59
+#### Temas puntuales de la sección                                                                                 00:26
+#### Demostración de esta sección - FotosGram                                                                      03:48
+#### Inicio de proyecto - Fotosgram App                                                                            06:32
+#### Obtener el listado de nuestros Posts                                                                          08:29
+#### Backend - CORS - Resolver el problema de peticiones CROSS Domain                                              04:16
+#### Artículo - Crear 21 registros en la base de datos                                                             00:11
+#### Interfaces necesarias para el tipado de nuestros datos                                                        05:30
+#### Componente Post, Posts y Components Module                                                                    10:16
+#### PostsComponent.html - Diseño multi columna                                                                    02:44
+#### PostComponent - HTML de un Post                                                                               08:44
+#### DomSanitizer Pipe - Colocar imágenes en el background del slide                                               07:36
+#### Infinite-scroll - De nuestros POSTs                                                                           04:31
+#### Refresher - Recargar todos los posts nuevamente                                                               07:01
+#### Login de nuestra aplicación - diseño                                                                          11:02
+#### Bloqueo y movimiento manual del Slide principal                                                               05:45
+#### Servicio para el manejo del usuario y token                                                                   08:45
+#### Almacenar token en el storage y mover el root a los tabs                                                      07:20
+#### Servicio para centralizar componentes de ionic                                                                03:21
+#### Crear nuevos usuarios en nuestra aplicación                                                                   09:05
+#### Componente para seleccionar un Avatar                                                                         08:06
+#### Proteger rutas cargadas mediante lazyload                                                                     14:40
+#### Preparar la pantalla de actualizar usuario                                                                    08:19
+#### Actualizar la base de datos con los cambios del usuario                                                       11:13
+#### Actualizando el avatar del usuario                                                                            07:52
+#### Diseño de la pantalla de crear un POST                                                                        02:54
+#### Crear un nuevo registro de POST en la base de datos                                                           08:10
+#### Colocar último post al inicio de mi página Home                                                               08:23
+#### Obtener la ubicación del dispositivo - GeoLocation                                                            10:56
+#### Mostrando las coordenadas del Post                                                                            10:48
+#### Tomar una fotografía y mostrarla en el HTML                                                                   13:05
+#### IOS - DomSanitizer para las imágenes                                                                          07:23
+#### Seleccionar imágenes del carrete                                                                              04:05
+#### Llamar servicio para subir imágenes                                                                           09:22
+#### Mostrar imágenes en el post                                                                                   10:27
+#### Logout                                                                                                        08:17
+#### Abrir la página de tabs por defecto                                                                           02:13
+#### Código fuente de la sección                                                                                   00:14
+
 ### Despliegues en Google PlayStore y Apple AppStore                                                  15 clases 01:22:41
 
+#### Introducción a la sección                                                                                     01:45
+#### Temas puntuales de la sección                                                                                 00:14
+#### Inicio de proyecto - Noticias en las AppStores                                                                02:59
+#### Generar ícono y splash screen                                                                                 04:36
+#### ID único y versionamiento de tu aplicación                                                                    07:42
+#### Documentaciones útiles                                                                                        01:04
+#### Android: APK Firmado y Sin Firmar                                                                             08:30
+#### Android: Subir APK en Google PlayStore                                                                        05:06
+#### Android: Subir APK, Clasificación y precios                                                                   07:18
+#### Android: Testers, Alphas, Betas y Producción                                                                  08:19
+#### Android: Enlaces de Alphas, Betas, URL de PlayStore y la instalación                                          04:10
+#### IOS: Preparar el API o Archive para subirlo al AppStoreConnect                                                09:27
+#### IOS: Subir API o Archive al AppStore Connect                                                                  07:26
+#### IOS: Configuración y envío a revisión a la AppStore                                                           06:15
+#### IOS: Testflight                                                                                               07:50
+
 ### Despedida del curso                                                                                2 clases    02:56
+
+#### Más sobre mis cursos                                                                                          00:33
+#### Despedida del curso                                                                                           02:23
