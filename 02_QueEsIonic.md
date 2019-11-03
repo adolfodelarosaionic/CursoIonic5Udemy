@@ -289,7 +289,7 @@ Para ver la aplicación en el navegador web escribimos:
 
 Nos carga una aplicación con tres tabs, como se ve en las siguientes imagenes:
 
-<img src="/02QueEsIonic/app1_tab1_web.png" width="300px" /> <img src="/02QueEsIonic/app1_tab2_web.png" width="300px"/> <img src="/02QueEsIonic/app1_tab3_web.png" width="300px"/>
+<img src="/02QueEsIonic/app1_tab1_web.png" width="450px" /> <img src="/02QueEsIonic/app1_tab2_web.png" width="450px"/> <img src="/02QueEsIonic/app1_tab3_web.png" width="450px"/>
 
 <img src="/02QueEsIonic/app1_tab1_movil.png" width="250px"/> <img src="/02QueEsIonic/app1_tab2_movil.png" width="250px"/> <img src="/02QueEsIonic/app1_tab3_movil.png" width="250px"/>
 
