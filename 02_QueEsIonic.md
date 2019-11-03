@@ -227,7 +227,7 @@ También vamos a utilizar el sistema de rutas de Angular para navegar entre pant
 
 Podemos pensar que Ionic es quien nos va a dar a nosotros los controles y la forma de crear nuestras aplicaciones tomando el código de Angular y desplegarla en un dispositivo móvil y también vamos a utilizar ciertas cosas de Cordova que vamos a ver más adelante para poder desplegar nuestra aplicación en una AppStore y como mencioné anteriormente si nosotros seguimos unos lineamientos que nos da Ionic nuestra aplicación va a lucir exactamente igual a una aplicación nativa.
 
-<img src="/02QueEsIonic/25Presentaciones.png" />
+<img src="/02QueEsIonic/26Presentaciones.png" />
 
 Solo para darles un ejemplo de lo que es hoy Ionic.
 
