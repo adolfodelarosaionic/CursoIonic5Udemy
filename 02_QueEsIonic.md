@@ -304,6 +304,241 @@ Por defecto estoy simulando un iPhoneX. Si yo quisiera simular un Pixel puedo se
 <img src="/02QueEsIonic/pixel2.png" />
 
 ## Estructura de un proyecto de ionic - Parte 1                                                                  14:50
+
+Para ver la estructura de el proyecto creado abrimos el Visual Studio Code y cargamos el proyecto `01-myApp`.
+
+<img src="/02QueEsIonic/vsc-01-myApp.png" />
+
+
+En esta clase vamos a hablar sobre cada uno de los archivos y directorios que se encuentran en un proyecto de Ionic.
+Empecemos con el de Iturbi o en en una carpeta destinada a realizar pruebas de extremo a extremo para crear una aplicación en allowing ya sea para Android o iOS o bien obligó a una aplicación web esta carpeta realmente no es necesaria para crear un proyecto de Yony que es más que todo cuando nosotros queremos realizar pruebas.
+
+Pero esta carpeta no lo vamos a utilizar en el curso así que no se preocupen por esto.
+
+Luego tenemos los módulos de Nott en el cual se encuentran todas las dependencias de nuestro proyecto tanto las de angular como honek y todo lo que ellos necesitan para que nosotros podamos tener en nuestra aplicación lo que es el reloj que cuando yo grabo se actualicen los cambios.
+
+En fin que todo funcione acá que cuando yo tengo un error acá me digan qué archivo es o cuál es la ayuda necesaria para que yo pueda saber en dónde está el error.
+
+Básicamente estos módulos nosotros no los vamos a tocar manualmente todos lo hacemos mediante comandos de enemistó o RPM honesto.
+
+Si queremos borrar algo de acá pero esto no lo tocamos manualmente la carpeta s R.-Se o sours conocida también con ese nombre la voy a dejar para el final porque esto ya es la aplicación de Angola.
+
+Eso lo voy a dejar al final.
+
+Luego tenemos lo que es el archivo punto ignoré para las personas que ya han trabajado con GIT o saben un poco y saben que este archivo pero para los que no. Básicamente es un archivo que me dice A mí cuáles son los directorios o archivos que yo necesito ignorar que no van a ser parte de mi repositorio entiéndase un repositorio como un proyecto que yo voy a respaldar en algún lugar como por ejemplo Kidjo o GIT Bosquet o cualquier otro lugar.
+
+Todos estos archivos por ejemplo yo no quiero tener un respaldo de los archivos log o los archivos temporales o cualquier archivo que se llame lospuntos txt o los proyectos de su text.
+
+Cualquiera de estas cosas inclusive los módulos no sonara como extraño que los módulos no son necesarios y están siendo ignorados.
+
+Pero es que los módulos de Nott se puede reconstruir con un comando que está en el paquete junto Jayson eso ya lo vamos a ver en breve pero básicamente esto es lo que hace el archivo Ghitis.
+
+Nosotros no creemos que un archivo o carpeta sea parte de nuestro proyecto a la hora de hacer un respaldo en la nube o en algún lugar.
+
+Entonces lo podemos agregar Acá a cerrarlo.
+
+Luego tenemos el angular puntu Jayson ese es el mismo punto Jayson de un proyecto de angular común y corriente.
+
+Aquí ustedes van a poder observar que tenemos la definición de mis archivos de estilos.
+
+Por ejemplo este es el archivo de estilos que a usar acá.
+
+Luego tenemos el archivo de estilos globales otras dependencias de scripts.
+
+En fin es lo mismo y nosotros no vamos a tocar esto.
+
+Normalmente no se toca este archivo a menos de que nosotros queramos hacer alguna instalación en específico pero realmente es muy raro que se utilice esto.
+
+Luego tenemos el Ionic confit punto Jayson el archivo Jayson en el cual dice cuál es el nombre de la aplicación.
+
+Qué tipo de aplicación es.
+
+Por ejemplo aquí me dice que es una aplicación de Angola y dice Angola porque también puede ser hecha en React utilizando ONIC.
+
+También puede ser Yamasaki plano entre otras cosas y si tiene algún tipo de integración aquí también se especifica.
+
+Cuando nosotros hacemos la conexión con Calloni que son un par de herramientas adicionales que nos ofrece que es un par de herramientas adicionales que nos puede ofrecer algún tipo de costo aquí podríamos tener ese tipo de integraciones y también nos a decir cuál es el Heydi de la aplicación.
+
+Entre otras cosas realmente esto tampoco se toca mucho.
+
+Luego tenemos el paquete punto lospuntos Jayson que es un archivo que nosotros no manipulamos en pocas palabras.
+
+El log Jayson nos dice cómo fue construido el paquete apuntó Jayson.
+
+Y en qué orden fue el archivo pakete apuntó Jayson me dice a mí cuál es el nombre de mi aplicación cuál es la versión.
+
+Todo esto se puede cambiar.
+
+Estos podían poner su nombre que no hizo el homepage comandos que nos van a ayudar a nosotros a que cuando nosotros creamos alguna terminal ejecutar esos comandos rápidamente.
+
+Luego tenemos cuáles son las dependencias de nuestro proyecto y también tenemos las dependencias de desarrollo.
+
+La diferencia entre las dependencias normales y la de desarrollo es que las de desarrollo no forman parte del producto final de mi aplicación.
+
+Es decir esto sí va a formar parte del Bondone que va a ser subido en el dispositivo móvil o en la aplicación web.
+
+Las dependencias de desarrollo sólo son usadas cuando yo quiero hacer pruebas o quiero probarlo localmente en mi equipo.
+
+Básicamente eso es todo por hoy.
+
+El test cómo fue punto Jayson es el archivo de configuración de Tawfiq.
+
+Tampoco lo vamos a manipular mucho pero aquí básicamente le dice a Taipe cómo quieren que sea convertido el código JavaScript como por ejemplo que el estándar sea JavaScript del 2015 pero también podríamos poner otro estándar pero realmente esto es lo que nos ayuda a nosotros es aumentar la compatibilidad el achiote ese confit como les dije son las reglas detalló.
+
+El té es el punto Jayson.
+
+Es un archivo bien interesante que básicamente es una gran colección de reglas.
+
+Estas reglas nos ayudan a que escribamos un código más limpio detalló scrip y que otros usuarios también programen de la misma manera.
+
+Realmente no he recomendado que nosotros activemos estas cosas porque esto es como un estándar es decir te va a decir que todas las funciones se tienen que definir de esta manera que tienen que tener un espacio antes de los paréntesis de las llaves.
+
+En fin esto ustedes ya lo van a ver cuando nos empiecen a tirar errores de ese lint que realmente no son errores son sugerencias se pueden desactivar pero como les dije es importante dejarlas porque nos van a ayudar a escribir un mejor código.
+
+Ahora si vamos con la carpeta merece esta carpeta no es diferente a un proyecto de anulares casi la misma con un par de pequeñitas cosas diferentes.
+
+Empezamos con una carpeta app que normalmente aquí es donde vamos a pasar la mayor parte del tiempo que es donde nosotros vamos a crear las páginas los servicios directivas todo lo que queramos de nuestra aplicación va a estar acá por ejemplo aquí tenemos uno dos tres que ya sabemos que hace referencia a uno dos tres.
+
+Sigamos el tab 2 voy a abrir el tab 2 que eso ya lo habíamos modificado rápidamente el HTML que habíamos puesto el Hola Mundo solo que yo lo RE7 pero aquí tendríamos nosotros un H2 con el Hola Mundo.
+
+Si yo grabo los cambios aquí se va a refrescar pero lo que se encuentra en el HTML es la página básicamente que tenemos acá.
+
+Luego obviamente vamos a crear nuestras propias páginas.
+
+Vamos a crear moda vamos a crear de todo en este curso pero hay una pequeña diferencia que yo quiero explicarles acá.
+
+Este HTML algunas veces donde no va a tener un contenido o hay otras veces donde no hay un Gelber o también va a haber ocasiones donde no tiene ni contenido ni Jaider pero eso ya lo van a ver y les voy a explicar cuando si se ocupa cuando nos ocupa y ustedes mismos van a poder decidir cómo quieren que se miren sus páginas ahora cada una de las páginas tiene una estructura parecida a ésta por ejemplo tiene un módulo tiene un código HTML tiene un código de.
+
+No se preocupen si ustedes no conocen básicamente pueden escribir código de CSS normal y todo ese código es válido en ese seises no se preocupen por eso el archivo de pruebas es opcional que es utilizado cuando ustedes quieren correr o ejecutar pruebas y también tenemos el componente que nos ayuda a nosotros a poner nuestra lógica de cada pantalla.
+
+Cuál es la idea de que cada una de las páginas tenga un módulo y también si se fijan aquí tiene un router Mogul apuntó.
+
+Es tan raro y también observar que algunas páginas tienen como un módulo un router por ejemplo este de acá ya vamos a llegar a eso pero ustedes van a observar que tiene paz de esto como este código como extraño si es la primera vez que ustedes trabajan con rutas guiadas en angular.
+
+Puede ser que ustedes sientan esto un poco extraño pero la idea de una aplicación de Yony así como se encuentra en estos momentos es que todo lo haga mediante carga perezosa o lasitud.
+
+Esto ayuda a que la aplicación de ONIC cargue sumamente rápido cuando es lanzada en un dispositivo.
+
+Vamos a ver esto en detalle un poco más adelante.
+
+También les voy a dar un reforzamiento de angular para que ustedes sepan cómo crear y de dónde viene todo esto qué vamos a ver del tabs que tal vez es un poquito diferente.
+
+La pantalla del taps prácticamente es esto que tenemos aquí abajo y luego tiene una pantalla o un contenedor que nos permite mostrar las páginas.
+
+Si nosotros vemos lo que es el taps punto HTML este código tal vez es raro la primera vez pero entiendan que cada uno de estos es una opción del menú.
+
+Si ustedes crearan otro por ejemplo copian todo este tapón lo copian y lo volví a pegar acá grabo los cambios aunque diga top3 y tengo un clon.
+
+Van a ver que aquí ahora va a aparecer otra opción.
+
+Esperemos que esto recopile y ahí tenemos la cuarta opción que también hace lo mismo.
+
+Más adelante ustedes van a ver cómo funciona esto.
+
+No se preocupen que queden Haswell.
+
+Pero es que en teoría ese mismo Tapp eso ya lo vamos a ver más adelante también.
+
+Ok voy a cerrarlo.
+
+Aquí tenemos un Tappsi router y este archivo el router es intimidante la primera vez que se ve uno dice pero qué es este montón de código.
+
+Yo nunca lo voy a prender realmente.
+
+Cuando ustedes ya conocen la teoría y ya lo han hecho manualmente es más fácil dominar eso.
+
+Posteriormente nosotros vamos a crear nuestros propios taps de forma manual que nos va ayudar a comprenderlo mucho mejor.
+
+Luego tenemos lo que es el rating punto módulo punto 13.
+
+Básicamente ese es el archivo que le dice angular cómo va a manejar las rutas es decir cuál es la página principal cuál es la segunda página cuál es la tercera página y en fin cómo navegar entre pantallas.
+
+Ya vamos a utilizar esto cierro pero tenemos el componente que es lo mismo.
+
+Aquí teníamos un router outlet que es muy parecido al router outlet de Angola pero este es el de aviones que nos ayuda a que la aplicación se mire así.
+
+Luego tenemos otro chip de pruebas todos los que sean puntos Speck su archivo de pruebas no lo vamos a usar en este curso.
+
+Luego tenemos la component que esto es importante más adelante.
+
+Aquí nosotros podemos ejecutar código cuando la aplicación ya está lista.
+
+En este caso Platform Bravi quiere decir que la aplicación ya cargó le aplicamos un color a la barra de estado y quitamos el explayo screen.
+
+Más adelante vamos a utilizar esto para saber cuándo la aplicación entra en suspensión cuándo se reactiva entre otras cosas.
+
+Luego tenemos el PP punto módulo punto TC que si ustedes ya conocen un poco de angular ese mismo archivo en el cual tienen cuáles son los importes cuáles son los providers los módulos que se especifican los componentes entre componentes que ya casi no se usa.
+
+Pero a menos de que ustedes necesiten crear algo en tiempo real o renderizar algo en tiempo real aquí sería la misma lógica angular de los componentes.
+
+Pero antes se usaba mucho en otras versiones de Yony que era bastante común que tuviéramos todo entre componentes ahora no hace falta.
+
+De hecho casi ni sus cierro.
+
+Luego tenemos los assets que aquí es donde vienen recursos estáticos como por ejemplo imágenes que tenemos un Aiken y tenemos un archivo ese BG o s VG como ustedes digan EEBI que básicamente es esta imagen que ustedes tienen acá.
+
+Cuál es la gracia de que un SVG.
+
+Pues es es simplemente no se píxels que ustedes hagan Aganzo siempre se mantiene de la manera correcta porque son vectores y no píxeles.
+
+Básicamente eso es lo mismo pero nada del otro mundo.
+
+Cierro la parte de los environments es utilizada para declarar variables de entorno globales por decir algo.
+
+Vamos a ver en más adelante nosotros vamos a utilizar este archivo cuando definamos cuál es el VfL de mis servicios es decir aquí tendremos unos environments de desarrollo el que no tiene ese desarrollo y el de Propp.
+
+El punto es el de producción.
+
+Cuál es la diferencia de ambos.
+
+Pues cuando nosotros hagamos un ONIC o ya lo generemos para producción va a utilizar estos archivos de configuración y cuando estamos en desarrollo va a utilizar eso de acá no se preocupen si todavía no comprenden mucho la idea de estos dos archivos vamos a usar más adelante.
+
+Luego tenemos el Zim aquí adentro del cine tenemos un archivo de zás llamado variables punto CSS.
+
+Aquí hay una configuración de los colores primarios o los colores básicos de mi aplicación de ONIC o el tema que ustedes están viendo acá como por ejemplo por qué eso sale azul porque aquí está el azul.
+
+Si ustedes le pusieran otro color como por ejemplo rojo esto si quieren no lo harán.
+
+Pero ustedes pusieron aquí un rojo y graban los cambios.
+
+Esto va a recargar y ahora todo lo que tuviera este problema ahí va a pasar a ser rojo.
+
+Hay una que ofrece en su página también un generador de estilos que vamos a utilizar después.
+
+Este cambio no lo hagan voy a dejarlo como estaba originalmente.
+
+Básicamente aquí nosotros podemos definir variables y hacer cambios para los colores y otras formas como se quieren que se presente la aplicación en el dispositivo móvil o ya cuando esté corriendo en la aplicación.
+
+Luego tenemos el Global punto ese CSS que es otro chivó parecido al CIM pero a quién le va su configuración de clases o estilos personalizados.
+
+El CIM sólo va para usar cambios o para aplicar cambios de la aplicación de ONIC.
+
+Este global es el CS6 para definir sus estilos personalizados el índex junto a HTML es el lugar donde está lanzándose mi aplicación por primera vez.
+
+Aquí tenemos nuestro robot.
+
+Aquí es donde se renderiza mi aplicación completa.
+
+Aquí tenemos ya lo que es una página común corriente HTML y si ustedes ya conocen angular pues es el mismo archivo tengo luego el Karama puntocom apuntó JS Que es el archivo de configuración de karma que son también pruebas.
+
+El mail que le dice cuál es el modulo principal en este caso LPP punto módulo y también me verifica o bien producción o no.
+
+El archivo polifenol es un archivo que se utiliza cuando ustedes necesitan incrementar la compatibilidad con otros navegadores web por ejemplo pudiera ser que tienen la aplicación esté corriendo en Internet Explorer 9 y necesitan usar promesas pues las promesas no existían ahí entonces ustedes pueden colocar acá ya sea un scrip o lo que quieren que haga.
+
+Cuando se detecta que es una promesa en fin los polifilético son utilizados para incrementar la compatibilidad de su aplicación.
+
+El test es otro archivo de pruebas no lo vamos a utilizar.
+
+Luego tenemos el PP punto Jayson.
+
+Este ya es una configuración de tipo propia para la aplicación como por ejemplo los tips en caso de que importábamos en nuestro proyecto Llewelyn podríamos importar aquí el tipado de Hitachi ya nos daría las ayudas de todo el código QR tres puntos Peixoto Jayson sería el archivo de configuración de Tawfiq.
+
+Si ustedes están trabajando sus pruebas contactes ok.
+
+Básicamente eso es todo.
+
+Con esta estructura pero todavía hay otros directorios adicionales pero eso se los mostraré en el siguiente video.
+
 ## Estructura de un proyecto de ionic - Parte 2                                                                  05:04
 ## Ionic lab                                                                                                     02:45
 ## Depurar una aplicación de ionic - debugger                                                                    05:26
