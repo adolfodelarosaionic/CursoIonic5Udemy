@@ -50,7 +50,7 @@ La pregunta más común es, ¿Por qué seleccionar aplicaciones híbridas? ¿Qu�
 
    Una aplicación híbrida tiende a ser más fácil de dar soporte sin contar que no necesitas personal especializado en el código nativo.
 
-3. **Un ínico canal**:
+3. **Un único canal**:
    Las aplicaciones híbridas pueden correr en donde sea que la web corra. En un desktop, un móvil, una PWA, en un carro que tenga un navegador web que use GPS, cualquier cosa.
    
 <img src="/02QueEsIonic/06Presentaciones.png" />
@@ -85,7 +85,6 @@ La comunidad de desarrolladores web es 30 veces más grande que la comunidad de 
 
 <img src="/02QueEsIonic/10Presentaciones.png" />
 
-
 La mejor interfaz de usuario entre plataformas. 
 
 Una consistente experiencia de usuario entre plataformas, dispositivos móviles y otros modos de interacción incluyendo los navegadores web, sólo es posible mediante aplicaciones híbridas.
@@ -106,181 +105,166 @@ Lástima que no todo sea perfecto.
 
 Hay inconvenientes de las aplicaciones híbridas que ustedes deben de conocer.
 
-1. **Mayor consumo de recursos**:
+1. **Mayor consumo de recursos**
 
    * El uso de Web-View puede introducir un grado mayor de consumo en comparación de una app nativa.
    * La abundancia de Apis y el crecimiento de poder de los dispositivos hacen que este factor sea de menos consideración cada año.
    * Pero para juegos 3D o uso 3D en general o bien aplicaciones de alto performance o un performance intensivo lo híbrido no es la mejor opción.
 
-Si bien plugins de terceros las aplicaciones híbridas pueden acceder a casi todas las características
+<img src="/02QueEsIonic/13Presentaciones.png" />  
 
-nativas del dispositivo tales como la cámara o el giroscopio usando plugins plugins opensource como
+2. **Plugings de terceros**
 
-los de Córdoba son muy populares pero eso añade un nivel adicional y complejidad a nuestra aplicación
+Las aplicaciones híbridas pueden acceder a casi todas las características nativas del dispositivo, tales como la cámara o el giroscopio usando plugins.
 
-que muchos consideran problemático.
+Plugings opensource como los de Cordova son muy populares, pero eso añade un nivel adicional y complejidad a nuestra aplicación que muchos consideran problemático.
 
-Número 3 dependencias de Frank guards escoger una aproximación multiplataforma significa que pondrás
+<img src="/02QueEsIonic/14Presentaciones.png" /> 
 
-tu confianza en un framework para mantener las mejores prácticas características y patrones de desarrollo
+3. **Dependencias de Frameworks**
 
-para cada aplicación.
+Escoger una aproximación multi-plataforma significa que pondrás tu confianza en un framework para mantener las mejores prácticas, características y patrones de desarrollo para cada aplicación.
 
-Hoy unique está comprometido en mantenerse con las últimas versiones de Android e iOS es decir que se
+Ionic está comprometido en mantenerse con las últimas versiones de Android e iOS, es decir que Ionic se esfuerza para que su framework luzca y se comporte lo más parecido a una interfaz de usuario nativa.
 
-esfuerza para que sufren luzca y se comporte lo más parecido a una interfaz de usuario nativa.
+Y como mencioné anteriormente es muy difícil reconocer una aplicación hecha en Ionic de una aplicación hecha en su SDK nativo.
 
-Y como mencioné anteriormente es muy difícil reconocer una aplicación hecha en ONIC que una aplicación
+<img src="/02QueEsIonic/15Presentaciones.png" /> 
 
-hecha en su país nativo.
+Ahora miremos ¿Por qué escoger nativo?
 
-Ahora miremos por qué escoger nativo.
+Hay tres puntos principales:
 
-Hay tres puntos principales 1 formas 2 gran librería de recursos nativos y 3 0 dependencia de terceros.
+1. Performance
+2. Gran librería de recursos nativos
+3. Cero dependencia de terceros
 
-Comencemos con el performance.
+<img src="/02QueEsIonic/16Presentaciones.png" /> 
 
-Casi todas estas características se explican por sí solas el código nativo sigue siendo más rápido que
+Comencemos con el **Performance**.
 
-JavaScript y HTML.
+Casi todas estas características se explican por sí solas. El código nativo sigue siendo más rápido que JavaScript y HTML. Los navegadores web hoy en día ya cortan mucho esta brecha especialmente porque son acelerados por hardware. Sin embargo lo nativo sigue siendo una ventaja aquí eso es importante cuando el desarrollador busca crear aplicaciones de alta demanda gráfica como juegos o animaciones intensivas.
 
-Los navegadores web hoy en día ya cortan mucho esta brecha especialmente porque son acelerados por hardware.
+<img src="/02QueEsIonic/17Presentaciones.png" /> 
 
-Sin embargo lo nativo sigue siendo una ventaja aquí eso es importante cuando el desarrollador busca
+Luego tenemos una Gran librería de recursos nativos, usar el SDK nativo le permite al desarrollador usar las últimas características diseñadas en estas plataformas sin la complejidad de lidiar con plugins.Sin embargo la mayor parte del tiempo existen plugins para todo lo nativo que tú quieras hacer en un híbrido pero no sabemos que saldrán mañana. Y aquí es donde lo nativo tiene la ventaja.
 
-crear aplicaciones de alta demanda gráfica como juegos o animaciones intensivas.
+<img src="/02QueEsIonic/18Presentaciones.png" /> 
 
-Luego tenemos una gran librería de recursos nativos usar el SDK nativo le permite al desarrollador usar
+Y por último Cero dependencias de terceros.
 
-las últimas características diseñadas en estas plataformas sin la complejidad de lidiar con plugins.
+Al crear aplicaciones utilizando el SDK nativo, los desarrolladores no están atados a recursos de terceros y no hay dependencia de la comunidad open-source como Cordova, quienes son los que han creado la mayor parte de los plugins, para mantenerse al día con las últimas características.
 
-Sin embargo la mayor parte del tiempo existen plugins para todo lo nativo que tú quieras hacer en un
+Normalmente si el dispositivo tiene una nueva característica también lanzarán su SDK que te va a permitir controlarlo mucho antes de que exista un plugin que te permita usarlo en una aplicación híbrida.
 
-híbrido pero no sabemos que saldrán mañana.
+<img src="/02QueEsIonic/19Presentaciones.png" /> 
 
-Y aquí es donde lo nativo tiene la ventaja.
+Ahora así como en las aplicaciones híbridas existen inconvenientes, también existen inconvenientes en el desarrollo de las aplicaciones nativas como por ejemplo:
 
-Y por último cero dependencias de terceros a crear aplicaciones utilizando el Dickey nativo.
+1. Los ciclos de desarrollo son mucho más largos. 
+   Especialmente cuando de crear aplicaciones en múltiples plataformas se trata. IOS tiene su forma de crear una lista. Android y Windows Phone también. La web también lo que implica que si nosotros ocupamos crear esto en varias plataformas el código es diferente en cada una de ellas.
 
-Los desarrolladores no están atados a recursos de terceros y no dependen a la comunidad open source
+   También reduce la agilidad de lanzar actualizaciones de nuestras aplicaciones.
 
-como cordobas quienes son los que han creado la mayor parte de los plugins para mantenerse al día con
+<img src="/02QueEsIonic/20Presentaciones.png" /> 
 
-las últimas características.
+Luego tenemos 
 
-Normalmente si el dispositivo tiene una nueva característica también lanzarán su estic que te va a permitir
+2. Los altos costos de desarrollo. 
+   Si no lo has escuchado anteriormente desarrollar aplicaciones nativas es más caro y usualmente toma mucho más trabajo hacerlas principalmente por el tiempo que demora crear algo para cada plataforma que conlleva a contratar y mantener el talento de un desarrollador o varios que están especializados en esa tarea.
 
-controlarlo mucho antes de que exista un plugin que te permita usarlo en una aplicación híbrida.
+<img src="/02QueEsIonic/21Presentaciones.png" /> 
 
-Ahora así como las aplicaciones híbridas inconvenientes en el desarrollo de las aplicaciones nativas
+3. El talento nativo es difícil de encontrar.
+   
+   Encontrar y contratar personal para iOS y Android es difícil y consume tiempo y por lo general es caro y en muchos casos las personas especializadas en dispositivos móviles de forma nativa dominan una plataforma iOS o Android y sí lo pueden hacer en ambos es aún más caro contratarlos.
 
-como por ejemplo los ciclos de desarrollo son mucho más largos especialmente cuando de crear aplicaciones
+   Muchas empresas prefieren contratar un desarrollador que pueda crear aplicaciones para iOS y Android sin importar si son híbridas o nativas sus aplicaciones
+   
+<img src="/02QueEsIonic/22Presentaciones.png" /> 
 
-en múltiples plataformas se trata.
+Les voy a mostrar una tabla comparativa entre lo que es nativo y un híbrido multiplataforma. 
 
-IOS tiene su forma de crear una lista.
+Empecemos con la **Habilidad necesaria** para desarrollar algo nativo. Necesitamos saber Objective-C, iOS SDK, y para Android ocupas saber Java y el Android SDK. En un híbrido multi-plataforma lo que tú tienes que saber es HTML, CSS y JavaScript más algún Framework en este caso como Ionic.
 
-Android y Windows Phone también.
+El **Método de distribución** de una aplicación nativa son las App Stores. Claro también se puede mandar por correo el IPA o la APK y se puede instalar de otras formas pero no es tan sencillo. El método tradicional de la instalación de una aplicación nativa es una AppStore. En los híbridos, tú puedes instalarlo mediante las App Store, de igual manera pero también tienes el navegador web, una aplicación de escritorio como por ejemplo Electron, usar el navegador móvil o una PWA, en fin varias formas.
 
-La web también lo que implica que si nosotros ocupamos crear esto en varias plataformas el código es
+La **Velocidad de desarrollo** es lenta en una aplicación nativa por lo general y más aún si es multi-plataforma en comparación de un híbrido que es bastante rápido ya que tu solo codificas una vez.
 
-diferente en cada una de ellas.
+El **Costo de mantenimiento** en un nativo es medio alto, dependiendo del personal que tú contrates pero en comparación de un híbrido que es mucho más barato.
 
-También reduce la agilidad de lanzar actualizaciones de nuestras aplicaciones.
+Luego tenemos el **Performance gráfico** una aplicación nativa es lo mejor que tú puedes obtener porque todo corre de manera directa en el dispositivo. En cambio en un híbrido hace una aplicación exigente 3D como mencionada anteriormente no es conveniente.
 
-Luego tenemos los altos costos de desarrollo si no lo has escuchado anteriormente desarrollar aplicaciones
+Luego tenemos el **Performance global de la aplicación** en nativo es bastante alto. Es un híbrido multi-plataforma depende del caso de uso para la mayoría de las aplicaciones está bien pero esto se aplica de la misma manera que el paso anterior depende mucho de la exigencia que tú hayas hacer en tu aplicación.
 
-nativas es más caro y usualmente toma mucho más trabajo hacerlas principalmente por el tiempo que demora
+**Acceso a funcionalidad nativa** en nativo tú tienes la librería completa que te ofrezca el SDK, en pocas palabras puedes usar todo lo que el dispositivo tenga, en un híbrido multi-plataforma tú puedes acceder a casi todos los recursos nativos pero utilizando plugins.
 
-crear algo para cada plataforma que conlleva a contratar y mantener el talento de un desarrollador o
+Por último tenemos la **Consistencia entre diversas plataformas y dispositivos** en una aplicación nativa no hay de otra tú tienes que crear una nueva aplicación para la nueva plataforma. Puedes reutilizar servicios que hagas en tu Backend. Pero todo el código deberás volverlo a hacer, tanto para iOS como para Android como para la web y para todos los que tú quieres hacer. En un híbrido multi-plataforma tu solo codificas una vez y es el mismo código en todo lugar y en este caso Ionic se encargará de que tu aplicación se mire bien, no importa en donde lo estés corriendo.
 
-varios que están especializados en esa tarea.
-
-Número 3.
-
-El talento nativo es difícil de encontrar encontrar y contratar personal para iOS y Android es difícil
-
-y consume tiempo y por lo general es caro y en muchos casos las personas especializadas en dispositivos
-
-móviles de forma nativa dominan una plataforma iOS o Android y sí lo pueden hacer en ambos es aún más
-
-caro contratarlos.
-
-Muchas empresas prefieren contratar un desarrollador que pueda crear aplicaciones para iOS y Android
-
-sin importar si son híbridas o nativas sus aplicaciones les voy a mostrar una tabla comparativa entre
-
-lo que es nativo y un híbrido multiplataforma.
-
-Empecemos con la habilidad necesaria para desarrollar algo nativo.
-
-A saber o Yep si el iOS es Dickey y para Android ocupas saber Java y el Android es Dickey en un híbrido
-
-multiplataforma lo que tú tienes que saber es HTML CSS y JavaScript más algún Framework en este caso
-
-como ONIC.
-
-El método de distribución de una aplicación nativa es las appstore.
-
-Claro también se puede mandar por correo el iPad o a la pesca y se puede instalar de otras formas pero
-
-no es tan sencillo.
-
-El método tradicional de la instalación de una aplicación nativa es una AppStore en los híbridos.
-
-Tú puedes instalarlo mediante las App Store.
-
-De igual manera pero también tienes el navegador web una aplicación de escritorio como por ejemplo Electron
-
-usar el navegador móvil o una Lewa en fin varias formas la velocidad de desarrollo es lenta en una aplicación
-
-nativa por lo general y más aún si es multiplataforma en comparación de un híbrido que es bastante rápido
-
-ya que tu solo codifica una vez el costo de mantenimiento en un nativo es medio alto dependiendo del
-
-personal que tú contrates pero en comparación de un híbrido es mucho más barato.
-
-Luego tenemos el performance gráfico una aplicación nativa es lo mejor que tú puedes obtener porque
-
-todo corre de manera directa en el dispositivo.
-
-En cambio en un híbrido hace una aplicación exigente 3D como mencionada anteriormente no es conveniente.
-
-Luego tenemos el performance global de la aplicación en nativo es bastante alto.
-
-Es un híbrido multiplataforma depende del caso de uso para la mayoría de las aplicaciones está bien
-
-pero esto se aplica de la misma manera que el paso anterior depende mucho de la exigencia que tú hayas
-
-hacer en tu aplicación.
-
-Acceso a funcionalidad nativa en nativo tú tienes la librería completa que te ofrezca el dique.
-
-En pocas palabras puedes usar todo lo que el dispositivo tenga en un híbrido multiplataforma tú puedes
-
-acceder a casi todos los recursos nativos pero utilizando plugins.
-
-Por último tenemos la consistencia entre diversas plataformas y dispositivos en una aplicación nativa.
-
-No hay de otra tú tienes que crear una nueva aplicación para la nueva plataforma.
-
-Puedes reutilizar servicios que hagas en tu Bakken.
-
-Pero todo el código deberás volverlo a hacer.
-
-Tanto para ellos como para Android como para la web y para todos los que tú quieres hacer en un híbrido
-
-multiplataforma tu solo codificados.
-
-Una vez y es el mismo código en todo lugar y en este caso hay Onix se encargará de que tu aplicación
-
-se mire bien.
-
-No importa en donde estés corriendo.
-
-Hablemos ahora un poco sobre lo que es hoy ONIC pero en el siguiente video.
+Hablemos ahora un poco sobre lo que es Ionic pero en el siguiente video.
 
 ## ¿Qué es ionic framework?                                                                                      03:23
+
+<img src="/02QueEsIonic/23Presentaciones.png" /> 
+
+¿Qué es Ionic? 
+
+<img src="/02QueEsIonic/24Presentaciones.png" /> 
+
+Ionic es un framework open-source. Entiendan que la palabra **Framework** es **un marco de trabajo** es decir que si nosotros seguimos sus lineamientos nuestras aplicaciones van a lucir y van a funcionar como si fuera una aplicación nativa.
+
+Ionic también nos ofrece un conjunto de herramientas que facilitan el desarrollo y las pruebas. 
+Puedes desarrolladas para múltiples plataformas con el mismo código.
+Ionic adapta su diseño dependiendo la plataforma en la cual estás corriendo.
+
+<img src="/02QueEsIonic/25Presentaciones.png" />
+
+Tú no te preocupas de nada de eso ahora nosotros aquí vamos a aprender Ionic utilizando Angular.
+
+Angular es quien realiza la lógica de validación entre pantallas y la manipulación del HTML. 
+
+También vamos a utilizar el sistema de rutas de Angular para navegar entre pantallas.
+
+Podemos pensar que Ionic es quien nos va a dar a nosotros los controles y la forma de crear nuestras aplicaciones tomando el código de Angular y desplegarla en un dispositivo móvil y también vamos a utilizar ciertas cosas de Cordova que vamos a ver más adelante para poder desplegar nuestra aplicación en una AppStore y como mencioné anteriormente si nosotros seguimos unos lineamientos que nos da Ionic nuestra aplicación va a lucir exactamente igual a una aplicación nativa.
+
+<img src="/02QueEsIonic/25Presentaciones.png" />
+
+Solo para darles un ejemplo de lo que es hoy Ionic.
+
+Déjenme mostrarles la [documentación oficial](https://ionicframework.com/) de ellos, ee el material adjunto yo les dejo a ustedes el URL [https://ionicframework.com/docs](https://ionicframework.com/docs) para que puedan llegar a esa documentación rápidamente, pero lo que les quiero explicar se encuentra aquí en la [pestaña de componentes](https://ionicframework.com/docs/components) al lado izquierdo tenemos todos los componentes prefabricados de Ionic para ayudarles a ustedes a crear rápidamente las aplicaciones y cómo se hace eso.
+
+Bueno, ustedes no van a tener que perder el tiempo creando alertas, creando tarjetas, creando infinitas scroll, creando lo que es el pulso refresh, todo eso ya exist en Ionic y simplemente lo usamos.
+
+Por ejemplo si quiero implementar un **Action Sheet** toco un botón y así se mira un Action Sheet en iOS.
+
+<img src="/02QueEsIonic/action_sheet_ios.png" />
+
+Si quiero verlo en Android toco el botón MD (Material Design) y así se mira.
+
+<img src="/02QueEsIonic/action_sheet_md.png" />
+
+Ionic se va a encargar de aplicar el estilo correspondiente dependiendo de la plataforma donde estamos corriendo, pero no quiere decir que si ustedes quieren utilizar algo que se mire en iOS, en Material Design ustedes perfectamente lo pueden hacer y viceversa. Por ejemplo si me voy aquí, en **ion-alert** y tocó la alerta, así se mire una alerta en Material Design (MD).
+
+<img src="/02QueEsIonic/alert_md.png" />
+
+pero si selección iOS y tocó el botón, así se mira la misma alerta pero en un dispositivo corriendo iOS.
+
+<img src="/02QueEsIonic/alert_ios.png" />
+
+Implementarlo y trabajar con esto es sumamente sencillo y muy agradable.
+
+Por ejemplo si ustedes quisieran utilizar **DateTime** tenemos los ejemplos, así se mira un DateTime en iOS.
+
+<img src="/02QueEsIonic/date_time_ios.png" />
+
+Inclusive cuando lo están corriendo ya en el dispositivo físico vibra y cuando estamos en el Material Design, así se míra 
+
+<img src="/02QueEsIonic/date_time_md.png" />
+
+Nosotros en este curso explicaremos el 90 por ciento de cada uno de los elementos que se encuentran acá sino por decir el 99 por ciento ya tendremos una sección donde hablo de cada uno de estos elementos con ejemplos y formas de utilizarlo de manera detallada por los momentos lo que quiero invitarlos a ustedes es que vengan a esta página y se ponga a jugar con todas las opciones que hay.
+
+Hay unos que no tienen un emulador pero nosotros sí haremos el ejercicio y hay otros que como ustedes están viendo si pueden probarlo aquí en el emulador que tienen al lado derecho lleguen a esta página empiecen a jugar con cada uno de los controles y los veo en el siguiente video.
+
 ## Nuestra primera aplicación de ionic                                                                           07:55
 ## Estructura de un proyecto de ionic - Parte 1                                                                  14:50
 ## Estructura de un proyecto de ionic - Parte 2                                                                  05:04
